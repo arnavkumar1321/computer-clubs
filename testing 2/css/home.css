@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+
+}
+.nav-list li{
+    padding: 28px 28px;
+    list-style: none
+    
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    color: antiquewhite;
+}
+.navbar{
+    text-align: center;
+}
+.logo{
+    color: aliceblue;
+    padding: 20px 62px;
+    margin: 2px;
+}
+.background{
+    background: rgba(48, 44, 44, 0.7) url(/pics/building.jpeg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.smallText{
+    color: aliceblue;
+    font-family: Rockwell;
+    font-size: medium;
+}
+.bigText{
+    font-family: Rockwell;
+    font-weight: bolder;
+    font-size: 5rem;
+    padding-top: 160px;
+    color:rgb(175, 187, 198)
+}
+.firstBox{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.firstSection{
+    height: 100vh;
+}
+.btn{
+    width: 134px;
+    height: 65px;
+    text-align: center;
+    border-radius: 10px;
+    background: none;
+    font-size: medium;
+    box-shadow: inset 0 0 0 0 #f9e506;
+    transition: ease-out 0.5s;
+    position: absolute;
+    left: 617px;
+    border: white;
+    cursor: pointer;;
+  
+}
+.btn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: large;
+}
+.btn:hover{
+    box-shadow: inset 134px 0 0 0 #f9e506;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
